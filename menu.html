@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Menu - FOODIO</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffeae0; /* Light Peach Background */
+        color: #333; /* Darker text for readability */
+      }
+      header {
+        background-color: #ff8c00; /* Dark Orange for header */
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px;
+      }
+      h2 {
+        color: #ff8c00; /* Dark Orange for section headings */
+        font-size: 2.5em;
+        margin-bottom: 20px;
+      }
+      .menu-category {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      }
+      .menu-item {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        width: 30%;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s ease;
+      }
+      .menu-item:hover {
+        transform: translateY(-5px); /* Hover effect */
+      }
+      .menu-item img {
+        width: 90%;
+        border-radius: 5px;
+      }
+      .menu-item h3 {
+        color: #ff8c00; /* Dark Orange for item name */
+        margin-top: 15px;
+      }
+.menu-item p {
+font-size: 1.1em;
+color: #555;
+line-height: 1.6;
+}
+.price {
+font-size: 1.2em;
+font-weight: bold;
+color: #ff8c00; /* Dark Orange for price */
+}
+footer {background-color: #ff8c00; /* Dark Orange for footer */
+ color: white;
+ text-align: center;
+ padding: 10px;
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+ height: 4%;
+  }
+  </style>
+  </head>
+  <body>
+    <header>
+      <h1>Our Menu - FOODIO</h1>
+    </header>
+
+    <div class="container">
+      <section>
+        <h2>Starters</h2>
+        <div class="menu-category">
+          <!-- Menu Item 1 -->
+          <div class="menu-item">
+            <img
+              src="https://www.connoisseurusveg.com/wp-content/uploads/2022/04/baked-spring-rolls-sq.jpg"
+              alt="Spring Rolls"
+            />
+            <h3>Spring Rolls</h3>
+            <p>
+              Fresh and crispy rolls filled with vegetables and served with
+              dipping sauce.
+            </p>
+            <p class="price">₹499</p>
+          </div>
+
+          <!-- Menu Item 2 -->
+          <div class="menu-item">
+            <img
+              src="https://www.indianveggiedelight.com/wp-content/uploads/2017/03/dominos_stuffed_garlic_bread_final.jpg"
+              width="300"
+              height="350"
+              alt="Garlic Bread"
+            />
+            <h3>Garlic Bread</h3>
+            <p>
+              Golden and buttery garlic bread topped with herbs, a perfect
+              appetizer.
+            </p>
+            <p class="price">₹399</p>
+          </div>
+
+          <!-- Menu Item 3 -->
+          <div class="menu-item">
+            <img
+              src="https://cdn.pixabay.com/photo/2020/10/01/22/39/gourmet-5619887_1280.jpg"
+              width="300"
+              height="350"
+              alt="Bruschetta"
+            />
+            <h3>Bruschetta</h3>
+            <p>
+              Crunchy toasted bread topped with a mixture of tomatoes, basil,
+              and olive oil.
+            </p>
+            <p class="price">₹599</p>
+          </div>
+        </div>
+
+        <h2>Main Courses</h2>
+        <div class="menu-category">
+          <!-- Menu Item 4 -->
+          <div class="menu-item">
+            <img
+              src="https://www.shutterstock.com/image-photo/chicken-alfredo-penne-creamy-pasta-600nw-2493019471.jpg"
+              width="300"
+              height="350"
+              alt="Pasta Alfredo"
+            />
+            <h3>Pasta Alfredo</h3>
+            <p>Rich and creamy Alfredo sauce over perfectly cooked pasta.</p>
+            <p class="price">₹999</p>
+          </div>
+
+          <!-- Menu Item 5 -->
+          <div class="menu-item">
+            <img
+              src="https://media.istockphoto.com/id/1280329631/photo/italian-pizza-margherita-with-tomatoes-and-mozzarella-cheese-on-wooden-cutting-board-close-up.jpg?s=612x612				&w=0&k=20&c=CFDDjavIC5l8Zska16UZRZDXDwd47fwmRsUNzY0Ym6o="
+              width="300"
+              height="350"
+              alt="Pizza Margherita"
+            />
+            <h3>Pizza Margherita</h3>
+            <p>Classic pizza with fresh mozzarella, basil, and tomato sauce.</p>
+            <p class="price">₹799</p>
+          </div>
+
+          <!-- Menu Item 6 -->
+          <div class="menu-item">
+            <img
+              src="https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-				recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG"
+              width="300"
+              height="350"
+              alt="Chicken Tikka"
+            />
+            <h3>Chicken Tikka</h3>
+            <p>
+              Grilled chicken marinated in yogurt and spices, served with naan.
+            </p>
+            <p class="price">₹899</p>
+          </div>
+        </div>
+
+        <h2>Desserts</h2>
+        <div class="menu-category">
+          <!-- Menu Item 7 -->
+          <div class="menu-item">
+            <img
+              src="https://mrbrownbakery.com/image/images/GJ7uCwGiteTF24HTWBclkziVTdhpQeZWH23MvQfq.jpeg?p=full"
+              width="300"
+              height="350"
+              alt="Chocolate Cake"
+            />
+            <h3>Chocolate Cake</h3>
+            <p>
+              Rich and decadent chocolate cake with a smooth chocolate ganache.
+            </p>
+            <p class="price">₹599</p>
+          </div>
+
+          <!-- Menu Item 8 -->
+          <div class="menu-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdf1gqGEVXqL3c-hDM_beed1sU-NPqOA_l2k1l-M9cFicYckMVchnVVgAaxmXNo3026RA&usqp=CAU"
+              width="300"
+              height="350"
+              alt="Cheesecake"
+            />
+            <h3>Cheesecake</h3>
+            <p>
+              Delicious creamy cheesecake with a graham cracker crust and fruit
+              topping.
+            </p>
+            <p class="price">₹699</p>
+          </div>
+
+          <!-- Menu Item 9 -->
+          <div class="menu-item">
+            <img
+              src="https://media.istockphoto.com/id/511622035/photo/heallthy-organic-fruit-salad.jpg?s=612x612&w=0&k=20&c=Nl3vuD8QLVCWCzFqiHBvRQzeoY2p0chmhzuPsW2hNBA="
+              width="300"
+              height="350"
+              alt="Fruit Salad"
+            />
+            <h3>Fruit Salad</h3>
+            <p>Fresh seasonal fruits served in a refreshing, light mix.</p>
+            <p class="price">₹399</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 FOODIO. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
